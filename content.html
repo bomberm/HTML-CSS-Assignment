@@ -63,7 +63,6 @@
   <li> First Item</li>
   <li> Second Item</li>
   <li> Third Item </li>
-<! I admit, I'm not very creative >
 </ul>
 </section>
 <br />
@@ -108,6 +107,46 @@
     </fieldset>
     <p>
     <input type="submit" value="Submit GET">
+    </p>
+    
+  </fieldset>
+</form>
+</section>
+<br />
+<section> POST form section 
+<form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="POST">
+  <fieldset>
+    <legend>POST Some Data</legend>
+    <fieldset>
+      <label> Text goes here:
+          <input type="text" name="text_input">
+      </label>
+    </fieldset>
+    <fieldset> 
+      <label> Numbers go here:
+        <input type="number" name="numerical_input">
+      </label>
+    </fieldset>
+    <fieldset>
+      <label> Password goes here:
+        <input type="password" name="password_input">
+      </label>
+    </fieldset>
+    <fieldset>
+    <p> Select a Candy </p>
+       <p>
+       <label>
+          <input type="radio" name="candy" value="Snickers"> Snickers </label>
+        <label>
+          <input type="radio" name="candy" value="Skittles"> Skiddles
+        </label>
+        <label>
+          <input type="radio" name="candy" value="Mentos"> Mentos
+        </label>
+        </p>
+    </fieldset>
+    <p>
+    <input type="submit" value="Submit POST">
     </p>
     
   </fieldset>
