@@ -1,4 +1,22 @@
-#italics
+tr td.first
 {
   font-style: italic;
+}
+
+.outer-content
+{
+  background-color: pink;
+  buffer-top: 20px;
+  height: 3em;
+  width: 75%;
+}
+
+.inner-content
+{
+  background-color: blue;
+  width: 75%;
+  position: relative;
+  text-align: center;
+  top: 1em;
+  left: 12.5%;
 }
