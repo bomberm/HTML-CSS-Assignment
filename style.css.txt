@@ -1,4 +1,0 @@
-#italics
-{
-  font-style: italic;
-}
